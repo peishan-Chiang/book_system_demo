@@ -10818,6 +10818,102 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.flex_square {
+  display: flex;
+  position: relative;
+  left: -8%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container .blockL {
+  margin-top: 20px;
+}
+.container div {
+  margin: 5px;
+}
+.container .nameToprice label {
+  margin-right: 31px;
+}
+.container .stockBlock label {
+  margin-right: 5px;
+}
+.container .saleBlock label {
+  margin-right: 20px;
+}
+.container .saleBlock input {
+  background-color: #b4b3af;
+}
+
+.divided {
+  width: 30%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divided label {
+  text-align: center;
+}
+.divided div {
+  margin: 5px;
+}
+.divided .classBtnBlock {
+  display: flex;
+}
+
+.btn {
+  box-sizing: border-box;
+  margin: 10px;
+  width: 15vw;
+  height: 3vw;
+  padding: 8pX 12px;
+  text-align: center;
+  background-color: #71695c;
+  color: aliceblue;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.6s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: #353434;
+}
+
+.btn:active {
+  scale: 0.95;
+}
+
+.blockR {
+  display: flex;
+  justify-content: center;
+}
+
+.blockC {
+  width: 60vw;
+  height: 10vw;
+  background-color: #cfc9aa;
+  border-radius: 10px;
+  border: 2px solid #704d12;
+  font-size: 15px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -10889,101 +10985,6 @@ textarea.form-control-lg {
 .container .blockRight h3, .container .blockRight .h3 {
   font-size: 20px;
   color: rgb(28, 85, 91);
-}
-
-.flex_square {
-  display: flex;
-  position: relative;
-  left: -8%;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-}
-.container .blockL {
-  margin-top: 20px;
-}
-.container div {
-  margin: 5px;
-}
-.container .nameToprice label {
-  margin-right: 31px;
-}
-.container .stockBlock label {
-  margin-right: 5px;
-}
-.container .saleBlock label {
-  margin-right: 20px;
-}
-.container .saleBlock input {
-  background-color: #b4b3af;
-}
-
-.divided {
-  width: 30%;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.divided label {
-  text-align: center;
-}
-.divided div {
-  margin: 5px;
-}
-.divided .classBtnBlock {
-  display: flex;
-}
-
-.btn {
-  box-sizing: border-box;
-  margin: 10px;
-  width: 15vw;
-  height: 3vw;
-  padding: 8pX 12px;
-  text-align: center;
-  background-color: #71695c;
-  color: aliceblue;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  border: 1px solid rgb(255, 255, 255);
-  transition: 0.6s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.btn a {
-  color: aliceblue;
-  text-decoration: none;
-}
-
-.btn:hover {
-  cursor: pointer;
-  background-color: rgb(255, 255, 255);
-  color: #353434;
-}
-
-.btn:active {
-  scale: 0.95;
-}
-
-.blockR {
-  display: flex;
-  justify-content: center;
-}
-
-.blockC {
-  width: 60vw;
-  height: 10vw;
-  background-color: #cfc9aa;
-  border-radius: 10px;
-  border: 2px solid #704d12;
-  font-size: 15px;
-  overflow: auto;
-  display: flex;
-  justify-content: center;
 }
 
 .flex_square1 {
@@ -11469,7 +11470,7 @@ textarea.form-control-lg {
   color: #ece4c0;
   transition: 0.5s;
   width: 15vw;
-  height: 3vw;
+  height: 2vw;
   background-color: #71695c;
   border-radius: 20px;
   border: 1px solid #f9f9f8;
@@ -11608,506 +11609,4 @@ body input {
 
 *, *::before, * ::after {
   box-sizing: border-box;
-}
-
-.mainBody {
-  padding: 0;
-  margin: 0;
-}
-
-.mainBody {
-  background: #ece4c0;
-  width: 90vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: rgb(28, 85, 91);
-  padding: 20px;
-}
-
-*, *::before, * ::after {
-  box-sizing: border-box;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-  box-sizing: content-box;
-}
-.container .blockLeft {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container .blockLeft img {
-  width: 80%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.container .blockLeft .btnMain {
-  width: 28vw;
-  background-color: #e8e7df;
-  border: 3px solid #b6b5b1;
-  transition: 0.5s;
-}
-.container .blockLeft .btnMain a {
-  text-decoration: none;
-}
-.container .blockLeft .btnMain:hover {
-  cursor: pointer;
-  scale: 1.2;
-  border: 3px solid #877d7d;
-  background-color: #cbc7b5;
-}
-.container .blockLeft .btnMain:active {
-  scale: 0.9;
-}
-.container .blockLeft h3, .container .blockLeft .h3 {
-  font-size: 20px;
-  color: rgb(28, 85, 91);
-}
-.container .blockRight {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container .blockRight img {
-  width: 80%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.container .blockRight .btnMain {
-  width: 25vw;
-  background-color: #e8e7df;
-  border: 3px solid #b6b5b1;
-  transition: 0.5s;
-}
-.container .blockRight .btnMain a {
-  text-decoration: none;
-}
-.container .blockRight .btnMain:hover {
-  cursor: pointer;
-  scale: 1.2;
-  border: 3px solid #877d7d;
-  background-color: #cbc7b5;
-}
-.container .blockRight .btnMain:active {
-  scale: 0.9;
-}
-.container .blockRight h3, .container .blockRight .h3 {
-  font-size: 20px;
-  color: rgb(28, 85, 91);
-}
-
-body {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background: #ece4c0;
-  width: 90vw;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: rgb(28, 85, 91);
-  padding: 20px;
-}
-body input {
-  text-align: center;
-  font-size: 14px;
-  width: 25vw;
-}
-
-*, *::before, * ::after {
-  box-sizing: border-box;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background: #ece4c0;
-  width: 90vw;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: rgb(28, 85, 91);
-  padding: 20px;
-}
-
-*,
-*::before,
-* ::after {
-  box-sizing: border-box;
-}
-
-.rankAndSearch {
-  margin-top: 30px;
-  display: flex;
-}
-
-.rankinBox {
-  width: 30vw;
-  background: #71695c;
-  border-radius: 5px;
-  margin-right: 5vw;
-  padding-bottom: 5px;
-  flex-direction: column;
-}
-.rankinBox p {
-  text-align: center;
-  color: #ece4c0;
-}
-.rankinBox ol {
-  border-radius: 5px;
-  border: 2.5px solid #71695c;
-  background-color: #e5dfc0;
-}
-.rankinBox li {
-  font-size: 12px;
-  border-bottom: 1px solid #71695c;
-}
-.rankinBox .saleBtnArae {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.rankinBox .saleBtn {
-  font-size: 8px;
-  width: 15vw;
-  height: 2vw;
-  text-align: center;
-  background-color: #c2bda1;
-  color: #71695c;
-  margin-top: -9px;
-  margin-bottom: 13px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 15px;
-  transition: 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.rankinBox .saleBtn:hover {
-  cursor: pointer;
-  background-color: rgb(255, 255, 255);
-  color: #353434;
-}
-.rankinBox .saleBtn:active {
-  scale: 0.95;
-}
-
-.searchBox1 {
-  width: 30vw;
-  background: #ece4c0;
-  border-radius: 5px;
-  color: #ece4c0;
-  font-size: 14px;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5%;
-  padding: 3px;
-  box-sizing: content-box;
-}
-
-.searchBox {
-  position: fixed;
-  left: 44vw;
-  width: 30vw;
-  background: #71695c;
-  border-radius: 5px;
-  color: #ece4c0;
-  font-size: 14px;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5%;
-  padding: 3px;
-  box-sizing: content-box;
-}
-.searchBox div {
-  width: 30vw;
-  margin-top: 5px;
-}
-.searchBox label {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.searchBox .searchBtn {
-  font-size: 8px;
-  width: 15vw;
-  height: 2vw;
-  text-align: center;
-  background-color: #c2bda1;
-  color: #71695c;
-  margin-top: 12px;
-  margin-bottom: 13px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 15px;
-  transition: 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.searchBox .searchBtn:hover {
-  cursor: pointer;
-  background-color: rgb(255, 255, 255);
-  color: #353434;
-}
-.searchBox .searchBtn:active {
-  scale: 0.95;
-}
-
-.SearchListArea {
-  margin-top: 100px;
-  width: 70vw;
-  height: 10vw;
-  background-color: #cfc9aa;
-  border-radius: 10px;
-  border: 2px solid #704d12;
-  font-size: 15px;
-  overflow: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.cleanBtn {
-  font-size: 12px;
-  width: 15vw;
-  height: 2vw;
-  text-align: center;
-  background-color: #71695c;
-  color: #cfc9aa;
-  margin-top: 12px;
-  margin-bottom: 13px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 15px;
-  transition: 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cleanBtn:hover {
-  cursor: pointer;
-  background-color: rgb(255, 255, 255);
-  color: #353434;
-}
-
-.cleanBtn:active {
-  scale: 0.95;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background: #ece4c0;
-  width: 90vw;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: rgb(28, 85, 91);
-  padding: 20px;
-}
-
-*,
-*::before,
-* ::after {
-  box-sizing: border-box;
-}
-
-.inputBlock {
-  display: flex;
-  justify-content: center;
-  width: 65vw;
-  height: 3vw;
-  background: #71695c;
-  border-radius: 20px;
-  font-size: 10px;
-}
-.inputBlock .inputfunction {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 60vw;
-  height: 3vw;
-}
-.inputBlock .input {
-  border-radius: 20px;
-  border: 1px solid #71695c;
-  font-size: 10px;
-  margin-right: 5px;
-}
-.inputBlock .btnBuyItem {
-  color: #71695c;
-  transition: 0.5s;
-  width: 15vw;
-  background-color: #cfc9aa;
-  border-radius: 20px;
-  border: 1px solid #f9f9f8;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.inputBlock .btnBuyItem:hover {
-  cursor: pointer;
-  background-color: #a9a171;
-}
-.inputBlock .btnBuyItem:active {
-  scale: 0.95;
-}
-.inputBlock .btnSelect {
-  color: #71695c;
-  transition: 0.5s;
-  width: 15vw;
-  background-color: #cfc9aa;
-  border-radius: 20px;
-  border: 1px solid #f9f9f8;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.inputBlock .btnSelect:hover {
-  cursor: pointer;
-  background-color: #a9a171;
-}
-.inputBlock .btnSelect:active {
-  scale: 0.95;
-}
-
-.btnBuyIt {
-  color: #ece4c0;
-  transition: 0.5s;
-  width: 15vw;
-  height: 3vw;
-  background-color: #71695c;
-  border-radius: 20px;
-  border: 1px solid #f9f9f8;
-  margin-left: 5px;
-  margin-top: 10px;
-  margin-right: 5px;
-}
-
-.btnBuyIt:hover {
-  cursor: pointer;
-  background-color: #a9a171;
-}
-
-.btnBuyIt:active {
-  scale: 0.95;
-}
-
-.addlist {
-  border-radius: 5px;
-  border: 1px solid #71695c;
-  background: #71695c;
-  width: 65vw;
-  margin-top: 10px;
-}
-.addlist .texth5 {
-  font-size: 15px;
-  margin-top: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #cfc9aa;
-}
-.addlist .addlistresult {
-  background: #cfc9aa;
-  font-size: 12px;
-  color: #71695c;
-}
-
-.searchList {
-  border-radius: 5px;
-  border: 1px solid #71695c;
-  background: #71695c;
-  width: 65vw;
-  margin-top: 10px;
-}
-.searchList .texth5 {
-  font-size: 15px;
-  margin-top: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #cfc9aa;
-}
-.searchList .searchListresult {
-  background: #cfc9aa;
-  font-size: 10px;
-  color: #71695c;
-}
-
-.searchBlock {
-  display: flex;
-  justify-content: center;
-  width: 65vw;
-  height: 3vw;
-  background: #71695c;
-  border-radius: 20px;
-  font-size: 10px;
-  margin-top: 30px;
-}
-.searchBlock .inputfunction {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 60vw;
-  height: 3vw;
-}
-.searchBlock .input {
-  border-radius: 20px;
-  border: 1px solid #71695c;
-  font-size: 10px;
-  margin-right: 5px;
-}
-.searchBlock .btnSearchItem {
-  color: #71695c;
-  transition: 0.5s;
-  width: 15vw;
-  background-color: #cfc9aa;
-  border-radius: 20px;
-  border: 1px solid #f9f9f8;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.searchBlock .btnSearchItem :hover {
-  cursor: pointer;
-  background-color: #a9a171;
-}
-.searchBlock .btnSearchItem:active {
-  scale: 0.95;
-}
-
-.space {
-  border-bottom: 2px solid #c3bea8;
-  width: 65vw;
-  margin-top: 30px;
-}
-
-.priceArea {
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.BuyEndList {
-  font-size: 12px;
 }/*# sourceMappingURL=index.css.map */

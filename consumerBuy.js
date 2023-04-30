@@ -1,14 +1,16 @@
 const btnSearch = document.querySelector("#btnSearch");
 const btnBuyIt = document.querySelector("#btnBuyIt");
 const blockC = document.querySelector("#BuyEndList");
-
+const searchListArea = document.querySelector('.searchList');//num
 const BuyEndListol = document.querySelector("#BuyEndListol");
 const priceArea = document.querySelector(".priceArea");
-
+const btnSearchRefresh = document.querySelector(".btnSearchRefresh");
+const nav = document.querySelector(".nav-link active");
 let text1 = document.getElementById('text1');//isbn
 let text2 = document.getElementById('text2');//num
 let textAuthor = document.getElementById('textAuthor')
 let textName = document.getElementById('textName')
+
 let searchList = document.querySelector('#searchListol');//num
 let ol = document.getElementById('ol'); //ol
 
@@ -24,6 +26,18 @@ let authorINSell;
 // });
 let keyItem;
 let valueItem;
+
+// addEventListener("click", function () {
+//     if (confirm('確定修改嗎?資料會直接覆蓋掉喔~') == true) {
+//         modi();
+
+//     } else {
+//         window.alert("已取消資料更新");
+//     }
+
+// });
+    alert(`親愛的朋友  您好，有資訊要跟您做提醒! \n \n 1. 購買頁面【不儲存】預計購買的品項，一旦更新/切換頁面，資料就會清空，請留意 \n \n 2. 查詢功能，提供isbn/作者/書名關鍵字查詢，請善加利用  \n  \n感謝您的使用，祝您購物愉快~`);
+
 
 function addItem() {
     let li = document.createElement('li');//li
@@ -250,3 +264,6 @@ btnBuyIt.addEventListener("click", function () {
 
 
 });
+
+
+

@@ -1,20 +1,19 @@
-
 .inputBlock {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     width: 65vw;
     height: 3vw;
     background: #71695c;
     border-radius: 20px;
     font-size: 10px;
 
-    .inputfunction{
+    .inputfunction {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
         width: 60vw;
         height: 3vw;
-        
+
     }
 
     .input {
@@ -22,7 +21,7 @@
         border: 1px solid #71695c;
         font-size: 10px;
         margin-right: 5px;
-        
+
     }
 
     .btnBuyItem {
@@ -47,7 +46,8 @@
     .btnBuyItem:active {
         scale: 0.95; //點擊後縮放
     }
-    .btnSelect{
+
+    .btnSelect {
         color: #71695c;
         transition: 0.5s;
         width: 15vw;
@@ -59,6 +59,7 @@
         margin-right: 5px;
 
     }
+
     .btnSelect:hover {
         //游標接觸到的回應
         cursor: pointer; //會有手手
@@ -72,13 +73,13 @@
 
 }
 
-.btnBuyIt{
+.btnBuyIt {
 
-    
+
     color: #ece4c0;
     transition: 0.5s;
     width: 15vw;
-    height: 3vw;
+    height: 2vw;
     background-color: #71695c;
     border-radius: 20px;
 
@@ -88,6 +89,7 @@
     margin-right: 5px;
 
 }
+
 .btnBuyIt:hover {
     //游標接觸到的回應
     cursor: pointer; //會有手手
@@ -99,23 +101,24 @@
 }
 
 
-.addlist{
+.addlist {
     border-radius: 5px;
     border: 1px solid #71695c;
     background: #71695c;
     width: 65vw;
     margin-top: 10px;
-   
-    .texth5{
+
+    .texth5 {
         font-size: 15px;
         margin-top: 3px;
         display: flex;
         justify-content: center;
         align-items: center;
-       
+
         color: #cfc9aa;
     }
-    .addlistresult{
+
+    .addlistresult {
         background: #cfc9aa;
         font-size: 12px;
         color: #71695c;
@@ -123,22 +126,24 @@
 }
 
 
-.searchList{
+.searchList {
     border-radius: 5px;
     border: 1px solid #71695c;
     background: #71695c;
     width: 65vw;
     margin-top: 10px;
-    .texth5{
+
+    .texth5 {
         font-size: 15px;
         margin-top: 3px;
         display: flex;
         justify-content: center;
         align-items: center;
-       
+
         color: #cfc9aa;
     }
-    .searchListresult{
+
+    .searchListresult {
         background: #cfc9aa;
         font-size: 10px;
         color: #71695c;
@@ -147,23 +152,23 @@
 
 .searchBlock {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     width: 65vw;
     height: 3vw;
     background: #71695c;
     border-radius: 20px;
     font-size: 10px;
     margin-top: 30px;
-    
 
-    .inputfunction{
+
+    .inputfunction {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
         width: 60vw;
         height: 3vw;
-        
-       
+
+
     }
 
     .input {
@@ -171,7 +176,7 @@
         border: 1px solid #71695c;
         font-size: 10px;
         margin-right: 5px;
-        
+
     }
 
     .btnSearchItem {
@@ -199,16 +204,20 @@
 
 
 }
-.space{
-    border-bottom:2px solid #c3bea8;
+
+.space {
+    border-bottom: 2px solid #c3bea8;
     width: 65vw;
 
     margin-top: 30px;
 }
-.priceArea{
+
+.priceArea {
     margin-top: 10px;
     font-size: 14px;
 }
-.BuyEndList{
+
+.BuyEndList {
     font-size: 12px;
 }
+

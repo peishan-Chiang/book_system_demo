@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book-seller-page</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="mb-3">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link "  href="./sellSearch.html">查詢</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./addIndex.html">新增</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="./bookInfo.html">修改</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">回首頁</a>
+            </li>
+
+    </div>
+    <h2>書籍銷售系統(Book Sell System)</h2>
+    <h5>新增/查詢功能</h5>
+    <div class="flex_square">
+        <div class="container">
+            <div class="blockL">
+                <div class="nameToprice">
+                    <div>
+                        <label for="name">書名</label>
+                        <input id="name" type="text" placeholder=" 請輸入書本全名">
+                    </div>
+                    <div>
+                        <label for="isbn">isbn</label>
+                        <input id="isbn" type="text" placeholder=" 請輸入書本isbn">
+                    </div>
+                    <div>
+                        <label for="author">作者</label>
+                        <input id="author" type="text" placeholder=" 請輸入書本作者名">
+                    </div>
+                    <div>
+                        <label for="price">價格</label>
+                        <input id="price" type="number" placeholder=" 請輸入書本價格">
+                    </div>
+                </div>
+                <div class="stockBlock">
+                    <label for="stock">庫存數量</label>
+                    <input id="stock" type="number" placeholder=" 請輸入書本庫存數量">
+                </div>
+                <div class="saleBlock">
+                    <label for="sale">銷售量</label>
+                    <input id="sale" type="number" placeholder=" 銷售量不允許直接新增" disabled>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="divided" >
+            <label for="classify">分類(允許多筆)</label>
+
+            <div><input id="classify1" type="text" placeholder="先【分類暫存】，再跟其他欄位【新增書籍】" onclick="document.getElementById('classify1').value=''"></div>
+            <div  class="classBtnBlock">
+            <button class="btn" id="btnTem">
+             分類暫存
+            <!-- </button>
+            <button class="btn" id="btnS">查詢
+            </button> -->
+            </div>
+            <p class="resultClassify" id="resultClassify"></p>
+           
+          
+
+        </div>
+    </div>
+    <!-- <div class="blockC"> -->
+        <!-- <h4 class="result" id="result"></h4>
+        <h4 class="result" id="result1"></h4> -->
+        
+    <!-- </div> -->
+
+    <div class="blockR">
+
+        
+        <button class="btn" id="btn">新增書籍
+
+        </button>
+        <button class="btn" id="btnNext">紀錄下一筆
+
+        </button>
+
+       
+
+        <!-- <button class="btn" id="btnM" type="button">
+            <a href="./bookInfo.html">修改</a>
+        </button> -->
+    </div>
+
+   
+
+
+    <script src="./addIndex.js"></script>
+</body>
+
+</html>

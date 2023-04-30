@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search-info</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="mb-3">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active  btn-primary " aria-current="page" href="./sellSearch.html">查詢</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">新增</a>
+            </li>
+
+            <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link" href="./bookInfo.html">修改</a>
+            </li>
+
+            <a class="nav-link" href="./main.html">回首頁</a>
+            </li>
+
+    </div>
+    <h2>書籍銷售系統(Book Sell System)</h2>
+    <h5>查詢功能</h5>
+    <div class="flex_square1">
+        <div class="container">
+            <div class="blockLSell">
+                  <p class="content"> 基本資料搜尋 </p>
+                <div class="basicInfoSell">
+                   
+
+                    <div>
+                        <label for="isbnSearch">isbn</label>
+                        <input id="isbnSearch" type="text" placeholder=" 請輸入書本isbn">
+                    </div>
+
+                    <div>
+                        <label for="nameSearch">書名</label>
+                        <input id="nameSearch" type="text" placeholder=" 請輸入書本全名">
+                    </div>
+                    
+                    <div class="authorSquare">
+                        <label for="authorSearch">作者</label>
+                        <input id="authorSearch" type="text" placeholder=" 請輸入書本作者名">
+                    </div>
+
+                </div>
+                <div class="blockbtn">
+                    <button class="btnSell" id="btnSell" type="button">
+                        搜尋
+                    </button>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="dividedSell">
+                <label for="classify">分類搜尋</label>
+
+                <div><input id="classify1" type="text" placeholder="分類關鍵字查詢">
+                </div>
+                
+                    <button class="btn" id="btnS">搜尋
+                    </button>
+                
+                <p class="resultClassify" id="resultClassify"></p>
+            </div>
+        </div>
+
+
+
+    </div>
+   
+
+    <div class="blockC">
+       <ol id="order"></ol>
+
+        <!-- <h4 class="result" id="result"></h4>
+        <h4 class="result" id="result1"></h4> -->
+
+    </div>
+    <button class="cleanBtn" id="cleanBtn">重新查詢</button>
+
+
+
+
+
+
+
+
+    <script src="./sellSearch.js"></script>
+
+</body>
+
+</html>

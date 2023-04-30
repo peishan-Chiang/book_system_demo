@@ -1,0 +1,110 @@
+.flex_square{
+    display: flex;
+    position: relative;
+    left: -8%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+    .blockL{
+        margin-top: 20px;
+    }
+    
+    div{margin: 5px;}
+    
+.nameToprice{
+    label{
+        margin-right: 31px;
+    }
+}
+
+.stockBlock{
+    label{
+        margin-right: 5px;
+    }
+}
+.saleBlock{
+    label{
+        margin-right: 20px;
+    }
+    input{background-color: #b4b3af;
+       }
+    
+}
+
+}
+
+.divided{
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+label{
+    text-align: center;
+}
+    
+ div{
+    margin: 5px;
+ }
+ .classBtnBlock{
+    display: flex;
+ }
+
+}
+
+
+
+
+.btn{
+    box-sizing: border-box;
+    margin: 10px;
+    width: 15vw;
+    height:3vw;
+    padding: 8pX 12px ;
+    text-align: center;
+    background-color:#71695c ;
+    color: aliceblue;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border:1px solid rgb(255, 255, 255) ;
+    transition: 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    a{
+        color:aliceblue;
+        text-decoration: none;
+    }
+
+    
+}
+.btn:hover{ //游標接觸到的回應
+  cursor: pointer;//會有手手
+  background-color: rgb(255, 255, 255);
+  color: #353434;
+}
+.btn:active{
+  scale:0.95;//點擊後縮放
+}
+
+.blockR{
+    display: flex;
+    justify-content: center;
+}
+
+.blockC{
+    width: 60vw;
+    height: 10vw;
+    background-color:#cfc9aa;;
+    border-radius: 10px;
+    border:2px solid #704d12;
+    font-size: 15px;
+   overflow: auto;
+    display: flex;
+    justify-content: center;
+   
+}

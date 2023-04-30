@@ -1,0 +1,214 @@
+
+.inputBlock {
+    display: flex;
+    justify-content:center;
+    width: 65vw;
+    height: 3vw;
+    background: #71695c;
+    border-radius: 20px;
+    font-size: 10px;
+
+    .inputfunction{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 60vw;
+        height: 3vw;
+        
+    }
+
+    .input {
+        border-radius: 20px;
+        border: 1px solid #71695c;
+        font-size: 10px;
+        margin-right: 5px;
+        
+    }
+
+    .btnBuyItem {
+        color: #71695c;
+        transition: 0.5s;
+        width: 15vw;
+        background-color: #cfc9aa;
+        border-radius: 20px;
+
+        border: 1px solid #f9f9f8;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .btnBuyItem:hover {
+        //游標接觸到的回應
+        cursor: pointer; //會有手手
+        background-color: #a9a171
+    }
+
+    .btnBuyItem:active {
+        scale: 0.95; //點擊後縮放
+    }
+    .btnSelect{
+        color: #71695c;
+        transition: 0.5s;
+        width: 15vw;
+        background-color: #cfc9aa;
+        border-radius: 20px;
+
+        border: 1px solid #f9f9f8;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    .btnSelect:hover {
+        //游標接觸到的回應
+        cursor: pointer; //會有手手
+        background-color: #a9a171
+    }
+
+    .btnSelect:active {
+        scale: 0.95; //點擊後縮放
+    }
+
+
+}
+
+.btnBuyIt{
+
+    
+    color: #ece4c0;
+    transition: 0.5s;
+    width: 15vw;
+    height: 3vw;
+    background-color: #71695c;
+    border-radius: 20px;
+
+    border: 1px solid #f9f9f8;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.btnBuyIt:hover {
+    //游標接觸到的回應
+    cursor: pointer; //會有手手
+    background-color: #a9a171
+}
+
+.btnBuyIt:active {
+    scale: 0.95; //點擊後縮放
+}
+
+
+.addlist{
+    border-radius: 5px;
+    border: 1px solid #71695c;
+    background: #71695c;
+    width: 65vw;
+    margin-top: 10px;
+   
+    .texth5{
+        font-size: 15px;
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        color: #cfc9aa;
+    }
+    .addlistresult{
+        background: #cfc9aa;
+        font-size: 12px;
+        color: #71695c;
+    }
+}
+
+
+.searchList{
+    border-radius: 5px;
+    border: 1px solid #71695c;
+    background: #71695c;
+    width: 65vw;
+    margin-top: 10px;
+    .texth5{
+        font-size: 15px;
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        color: #cfc9aa;
+    }
+    .searchListresult{
+        background: #cfc9aa;
+        font-size: 10px;
+        color: #71695c;
+    }
+}
+
+.searchBlock {
+    display: flex;
+    justify-content:center;
+    width: 65vw;
+    height: 3vw;
+    background: #71695c;
+    border-radius: 20px;
+    font-size: 10px;
+    margin-top: 30px;
+    
+
+    .inputfunction{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 60vw;
+        height: 3vw;
+        
+       
+    }
+
+    .input {
+        border-radius: 20px;
+        border: 1px solid #71695c;
+        font-size: 10px;
+        margin-right: 5px;
+        
+    }
+
+    .btnSearchItem {
+        color: #71695c;
+        transition: 0.5s;
+        width: 15vw;
+        background-color: #cfc9aa;
+        border-radius: 20px;
+
+        border: 1px solid #f9f9f8;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .btnSearchItem :hover {
+        //游標接觸到的回應
+        cursor: pointer; //會有手手
+        background-color: #a9a171
+    }
+
+    .btnSearchItem:active {
+        scale: 0.95; //點擊後縮放
+    }
+
+
+}
+.space{
+    border-bottom:2px solid #c3bea8;
+    width: 65vw;
+
+    margin-top: 30px;
+}
+.priceArea{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.BuyEndList{
+    font-size: 12px;
+}

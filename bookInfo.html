@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book-info-update</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="mb-3">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link " href="./sellSearch.html">查詢</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">新增</a>
+            </li>
+
+            <li class="nav-item">
+            <li class="nav-item">
+                <a class="nav-link active  btn-primary" aria-current="page" href="./bookInfo.html">修改</a>
+            </li>
+
+            <a class="nav-link" href="./main.html">回首頁</a>
+            </li>
+
+    </div>
+    <h2>書籍銷售系統(Book Sell System)</h2>
+    <h5>修改(更新)功能</h5>
+    <div class="flex_square1">
+        <div class="container">
+            <div class="blockL1">
+                <div class="changeScreen">
+                    <!-- <button class="btnRe" id="btnRe" type="button">
+                     更新子項目</button> -->
+                    <button class="btnPur" id="btnPur" type="button"
+                        onclick="document.getElementById('newStock').value='';document.getElementById('isbn').value='';document.getElementById('name').value=''">
+                        進貨
+                    </button>
+                    <button class="btnAdj" id="btnAdj" type="button"
+                    onclick="document.getElementById('newStock').value='';document.getElementById('isbn').value='';document.getElementById('name').value=''">
+                        調整價格
+                    </button>
+                </div>
+                <div class="basicInfo">
+                    <p class="content"> 請先輸入欲修改項目之基本資料</p>
+
+                    <div>
+                        <label for="isbn">isbn</label>
+                        <input id="isbn" type="text" placeholder=" 請輸入書本isbn">
+                    </div>
+
+                    <div class="bookname">
+                        <label for="name">書名</label>
+                        <input id="name" type="text" placeholder=" 請輸入書本全名">
+                    </div>
+                    <div>
+                        <label for="author" class="authorlabel">作者</label>
+                        <input id="author" class="author" type="text" placeholder=" 請輸入書本作者名">
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="divided1">
+
+            <div class="priceBlock">
+                <label for="newName" class="newNamelabel">新書名</label>
+                <input id="newName" class="newName" type="text" placeholder=" 請輸入書本全名">
+            </div>
+            <div class="priceBlock">
+                <label for="newAuthor" class="newAuthorlabel">新作者</label>
+                <input id="newAuthor" class="newAuthor" type="text" placeholder=" 請輸入書本作者">
+            </div>
+            <div class="priceBlock">
+                <label for="newPrice" class="newPricelabel">新價格</label>
+                <input id="newPrice" class="newPrice" type="number" placeholder=" 請輸入書本價格">
+            </div>
+            <div class="priceBlock">
+                <label for="newStock" class="newStocklabel">新庫存數量</label>
+                <input id="newStock" class="newStock" type="number" placeholder=" 請輸入書本庫存數量">
+            </div>
+            <div class="priceBlock">
+                <label for="newSale" class="newSalelabel">新銷售量</label>
+                <input id="newSale" class="newSale" type="number" placeholder=" 請輸入書本銷售量">
+            </div>
+
+
+
+            <!-- <div class="stockBlock1">
+                <label for="stock">新書名</label>
+                <input id="stock" type="number" placeholder=" 請輸入書本全名">
+            </div>
+            <div class="saleBlock1">
+                <label for="sale">新作者</label>
+                <input id="sale" type="number" placeholder=" 請輸入書本作者">
+            </div> -->
+
+            <div class="classifyBlock">
+                <label for="classify" class="classLabel">新分類(允許多筆)</label>
+            </div>
+
+            <div><input id="classify1" class="classify2" type="text" placeholder="先按【分類暫存】>【修改資料】">
+            </div>
+            <div class="classBtnBlock ">
+                <button class="btn" id="btnTem">
+                    分類暫存
+                </button>
+
+            </div>
+            <p class="resultClassify" id="resultClassify"></p>
+
+
+
+        </div>
+    </div>
+    <div class="blockC" id="resultBlock">
+
+        <!-- <h4 class="result" id="result"></h4>
+        <h4 class="result" id="result1"></h4> -->
+
+    </div>
+
+    <div class="blockR">
+
+
+        <button class="btn" id="btnM" type="button">
+            修改資料
+        </button>
+        <button class="btn" id="btnUpdatePur" type="button">
+            進貨更新
+        </button>
+        <button class="btn" id="btnUpdatePri" type="button">
+            價格更新
+        </button>
+
+    </div>
+
+
+
+
+
+
+    <script src="./bookinfo.js"></script>
+
+</body>
+
+</html>

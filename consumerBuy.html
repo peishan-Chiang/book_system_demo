@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consumer-buy</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="mb-3">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="./consumerRank.html">搜尋/推薦</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="./consumerBuy.html">購買</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./main.html">回首頁</a>
+            </li>
+
+    </div>
+
+    <h2>書籍銷售系統(Book Sell System)</h2>
+    <h5>購買功能</h5>
+
+
+    <div class="inputBlock">
+      <div class="inputfunction">
+        <button type="button" id="btn" class="btnBuyItem">新增購買清單</button>
+        <input class="input" type="text" id="text1" placeholder="請輸入書本isbn" onclick="document.getElementById('text1').value=''">
+        <input class="input" type="text" id="text2" placeholder="請輸入購買數量" onclick="document.getElementById('text2').value=''">
+        <button type="button" id="btnSelect" class="btnSelect" onclick="getchecked();">確認選購</button> 
+    </div>
+    </div>
+
+    <div  class="addlist">
+        <h5 class="texth5">預計購買清單</h5>
+        <div class="addlistresult">
+        <ol id="ol">
+        </ol>
+    </div>
+    </div>
+    <button type="button" id="btnBuyIt" class="btnBuyIt">結帳</button> 
+
+    <div class="space">
+
+    </div>
+
+    <div class="searchBlock">
+        <div class="inputfunction">
+        <input class="input" type="text" id="textAuthor" placeholder="請輸入書本作者" onclick="document.getElementById('textAuthor').value=''">
+        <input class="input" type="text" id="textName" placeholder="請輸入書本名稱" onclick="document.getElementById('textName').value=''">
+        <button type="button" id="btnSearch" class="btnSearchItem">搜尋</button> 
+    </div>
+    </div>
+    <div  class="searchList">
+        <h5 class="texth5">查詢結果</h5>
+        <div class="searchListresult">
+        <ol id="searchListol">
+        </ol>
+    </div>
+    </div>
+    <div class="priceArea"></div>
+    <div  class="BuyEndList">
+        <ol id="BuyEndListol">
+        </ol>
+    </div>
+
+
+    <script src="./consumerBuy.js"></script>
+</body>
+
+</html>

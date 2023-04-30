@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consumer-search</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="mb-3">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./consumerRank.html">搜尋/推薦</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="./consumerBuy.html">購買</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./main.html">回首頁</a>
+            </li>
+
+    </div>
+
+    <h2>書籍銷售系統(Book Sell System)</h2>
+    <h5>搜尋/推薦功能</h5>
+    <div class="rankAndSearch">
+        <div class="rankinBox">
+            <p>暢銷書單推薦</p>
+
+            <ol id="rankResult">
+
+            </ol>
+            <div class="saleBtnArae">
+                <button class="saleBtn" id="saleBtn">更新書單</button>
+            </div>
+        </div>
+        <div class="searchBox1"></div>
+        <div class="searchBox">
+            <div class="condtion">
+                <div>
+                    <label for="isbnSearch">isbn</label>
+                    <input id="isbnSearch" type="text" placeholder=" 請輸入書本isbn">
+                </div>
+
+                <div>
+                    <label for="nameSearch">書名</label>
+                    <input id="nameSearch" type="text" placeholder=" 請輸入書本全名">
+                </div>
+
+                <div class="authorSquare">
+                    <label for="authorSearch">作者</label>
+                    <input id="authorSearch" type="text" placeholder=" 請輸入書本作者名">
+                </div>
+
+            </div>
+            
+            
+            <button class="searchBtn" id="searchBtn">查詢結果</button>
+            
+        </div>
+    </div>
+
+    <div class="SearchListArea" id="SearchListArea">
+       
+        <ol id="SearchResult">
+        
+        </ol>  
+      
+
+    </div>
+
+    <button class="cleanBtn" id="cleanBtn">清空結果</button>
+
+
+    <script src="./consumerRank.js"></script>
+
+</body>
+
+</html>

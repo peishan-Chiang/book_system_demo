@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    
+    align-items: center;
+    margin-top: 50px;
+    box-sizing: content-box;
+
+
+    .blockLeft {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 80%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+     
+        .btnMain {
+            width: 28vw;
+            background-color: #e8e7df;
+            border:3px solid#b6b5b1;
+            transition: 0.5s ;
+            a {
+        
+                text-decoration: none;
+            }
+        
+        
+        }
+        
+        .btnMain:hover {
+            //游標接觸到的回應
+            cursor: pointer; //會有手手
+            scale: 1.2;
+            border: 3px solid #877d7d;
+            background-color: #cbc7b5;
+        }
+        
+        .btnMain:active {
+            scale: 0.9; //點擊後縮放
+        }
+
+        h3 {
+            font-size: 20px;
+            color: rgb(28, 85, 91);
+        }
+    }
+
+    .blockRight {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 80%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .btnMain {
+            width: 25vw;
+            background-color: #e8e7df;
+            border:3px solid#b6b5b1;
+            transition: 0.5s ;
+            a {
+        
+                text-decoration: none;
+            }
+        
+        
+        }
+        
+        .btnMain:hover {
+            //游標接觸到的回應
+            cursor: pointer; //會有手手
+            scale: 1.2;
+            border: 3px solid #877d7d;
+            background-color: #cbc7b5;
+        }
+        
+        .btnMain:active {
+            scale: 0.9; //點擊後縮放
+        }
+
+
+        h3 {
+            font-size: 20px;
+            color: rgb(28, 85, 91);
+        }
+    }
+}
+
